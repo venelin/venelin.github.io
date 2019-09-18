@@ -4,7 +4,12 @@ permalink: /research/
 title: Research
 ---
 
-Describe your research interests here.
+
+This page summarizes the research projects, which I have conducted or contributed to since the year 2012. 
+In my research, I am focusing on the development of computationally efficient methods for the analysis of big phylogenetic and continuous trait data. Currently, he continues his work in the cEvo group as a postdoctoral fellow.
+ 
+I'll check if there is already a page for organising such events in the cEvo wiki and initiate one if not found.
+
 
 <h2>Publications</h2>
 <ul>
