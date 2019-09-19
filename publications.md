@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Research
+title: Publications
 ---
 
 Here is a list of my reviewed publications, preprints and thesis reports. 
