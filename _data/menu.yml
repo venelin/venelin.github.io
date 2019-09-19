@@ -2,10 +2,15 @@
   href: "/about/"
 
 - title: "Publications"
+  href: "/publications/"
+
+- title: "Presentations"
+  href: "/presentations/"
+
+- title: "Research"
   href: "/research/"
 
-- title: "Software"
-  href: "/projects/"
+- title: "Industry"
+  href: "/industry/"
 
-- title: "Talks"
-  href: "/talks/"
+
