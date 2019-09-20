@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 ---
 
-H<h2>Reviewed articles</h2>
+<h2>Reviewed articles</h2>
 
 <div class="container">	
   <div class="row">
@@ -14,7 +14,7 @@ H<h2>Reviewed articles</h2>
     				<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
   				</a>
  			 	<div class="media-body">
-    				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off"><p>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</p></a></div>
+    				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off"><br/>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</a></div>
     				<p class="note">Mitov et al. 2019. PNAS.</p>
   				</div>
 			</div>
