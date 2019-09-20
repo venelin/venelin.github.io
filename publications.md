@@ -6,10 +6,34 @@ title: Publications
 
 Here is a list of my reviewed publications, preprints and thesis reports. 
 
+<div class="container">	
+		
+  <div class="row">
+		<div class="col-md-12 paperbox">
+			<div class="media">
+  				<a class="pull-right" href="/publications/2019-mgpm-pnas/">
+    				<img width="100" class="media-object" src="/publications/2019-mgpm-pnas/image.png">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off">Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</a></div>
+    				<p class="note">Mitov et al. 2019. PNAS.</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+    </div>
+    
+  </div>
+
+</div>
+
+
 <h2>Reviewed publications</h2>
 <ul>
 	<li>
-		<a href="/publications/2019-mgpm-pnas/"><b>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</b></a><br>
+		<a href="/publications/2019-mgpm-pnas/">
+		<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
+		<b>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</b></a><br>
 		<i><b>Venelin Mitov</b>, Krzysztof Bartoszek, Tanja Stadler</i><br>
 		Proceedings of the National Academy of Sciences of the United States of America, 2019<br>
 		<a href="http://www.pnas.org/lookup/doi/10.1073/pnas.1813823116"><div class="color-button">view online</div></a>
