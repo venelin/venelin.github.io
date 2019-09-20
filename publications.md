@@ -11,8 +11,8 @@ Here is a list of my reviewed publications, preprints and thesis reports.
   <div class="row">
 		<div class="col-md-12 paperbox">
 			<div class="media">
-  				<a class="pull-right" href="/publications/2019-mgpm-pnas/">
-    				<img width="100" class="media-object" src="/publications/2019-mgpm-pnas/image.png">
+  				<a class="pull-left" href="/publications/2019-mgpm-pnas/">
+    				<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
   				</a>
  			 	<div class="media-body">
     				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off">Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</a></div>
