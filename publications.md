@@ -36,6 +36,22 @@ title: Publications
 			</div>
     </div>
   </div>
+  
+  <div class="row">
+		<div class="col-md-12 paperbox">
+			<div class="media">
+  				<a href="/publications/2018-h2spvl-mbe/">
+    				<img class="pull-left pad-right media-object" src="/publications/2018-h2spvl-mbe/image.png">
+  				</a>
+  				
+ 			 	<div class="media-body">
+ 			 	    <div class="spacer"></div>
+    				<div class="smallhead media-heading"><a href="/publications/2018-h2spvl-mbe/" class="off">A Practical Guide to Estimating the Heritability of Pathogen Traits</a></div>
+    				<p class="note">Mitov et al. 2018. Molecular Biology and Evolution.</p>
+  				</div>
+			</div>
+    </div>
+  </div>
 </div>
 
 
