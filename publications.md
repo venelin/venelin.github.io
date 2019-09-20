@@ -11,13 +11,15 @@ title: Publications
   				<a href="/publications/2019-mgpm-pnas/">
     				<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
   				</a>
+  				
  			 	<div class="media-body">
+ 			 	    <div class="spacer"></div>
     				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off">Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</a></div>
     				<p class="note">Mitov et al. 2019. PNAS.</p>
   				</div>
 			</div>
-			<!--<div class="bigspacer"></div>
-			<div class="spacer"></div>-->
+			<!--<div class="bigspacer"></div>-->
+			
     </div>
   </div>
 </div>
