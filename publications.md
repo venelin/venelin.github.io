@@ -9,7 +9,7 @@ Here is a list of my reviewed publications, preprints and thesis reports.
 <div class="container">	
 		
   <div class="row">
-		<div class="col-md-12 paperbox">
+		<div class="col-md-8 paperbox">
 			<div class="media">
   				<a class="pull-left" href="/publications/2019-mgpm-pnas/">
     				<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
