@@ -18,14 +18,28 @@ title: Publications
     				<p class="note">Mitov et al. 2019. PNAS.</p>
   				</div>
 			</div>
-			<!--<div class="bigspacer"></div>-->
-			
+    </div>
+  </div>
+  
+  <div class="row">
+		<div class="col-md-12 paperbox">
+			<div class="media">
+  				<a href="/publications/2018-splitt-mee/">
+    				<img class="pull-left pad-right media-object" src="/publications/2018-splitt-mee/image.png">
+  				</a>
+  				
+ 			 	<div class="media-body">
+ 			 	    <div class="spacer"></div>
+    				<div class="smallhead media-heading"><a href="/publications/2018-splitt-mee/" class="off">Parallel likelihood calculation for phylogenetic comparative models: The SPLITT C++ library</a></div>
+    				<p class="note">Mitov et al. 2018. Methods in Ecology and Evolution.</p>
+  				</div>
+			</div>
     </div>
   </div>
 </div>
 
 
-
+<!--
 <ul>
 	<li>
 		<a href="/publications/2019-mgpm-pnas/">
@@ -119,4 +133,4 @@ Alexandra U. Scherrer, Viktor Müller, Sebastian Bonhoeffer, Roger Kouyos, Rolan
 		<a href="/publications/2013-master-thesis/MasterThesis_VenelinMitov.pdf"><div class="color-button">thesis pdf</div></a>
 	</li><br>
 </ul>
-
+-->
