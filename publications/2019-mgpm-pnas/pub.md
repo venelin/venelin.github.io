@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /publications/2019-mgpm-pnas/
-title: <img src="image.png">Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models
 ---
+
+<img src="image.png">
+<h1>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</h1>
 
