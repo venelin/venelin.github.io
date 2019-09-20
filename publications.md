@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 ---
 
-Here is a list of my reviewed publications, preprints and thesis reports. 
+H<h2>Reviewed articles</h2>
 
 <div class="container">	
   <div class="row">
@@ -25,7 +25,7 @@ Here is a list of my reviewed publications, preprints and thesis reports.
 </div>
 
 
-<h2>Reviewed publications</h2>
+
 <ul>
 	<li>
 		<a href="/publications/2019-mgpm-pnas/">
