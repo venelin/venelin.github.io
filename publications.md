@@ -52,6 +52,22 @@ title: Publications
 			</div>
     </div>
   </div>
+  
+  <div class="row">
+		<div class="col-md-12 paperbox">
+			<div class="media">
+  				<a href="/publications/2017-dissectvirulence-mbe/">
+    				<img class="pull-left pad-right media-object" src="/publications/2017-dissectvirulence-mbe/image.png">
+  				</a>
+  				
+ 			 	<div class="media-body">
+ 			 	    <div class="spacer"></div>
+    				<div class="smallhead media-heading"><a href="/publications/2017-dissectvirulence-mbe/" class="off">Dissecting HIV Virulence: Heritability of Setpoint Viral Load, CD4+ T Cell Decline and Per-Parasite Pathogenicity</a></div>
+    				<p class="note">Bertels et al. 2017. Molecular Biology and Evolution.</p>
+  				</div>
+			</div>
+    </div>
+  </div>
 </div>
 
 
