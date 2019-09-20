@@ -9,7 +9,7 @@ Here is a list of my reviewed publications, preprints and thesis reports.
 <h2>Reviewed publications</h2>
 <ul>
 	<li>
-		<b>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</b><br>
+		<a href="/publications/2019-mgpm-pnas/"<b>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</b></a><br>
 		<i><b>Venelin Mitov</b>, Krzysztof Bartoszek, Tanja Stadler</i><br>
 		Proceedings of the National Academy of Sciences of the United States of America, 2019<br>
 		<a href="http://www.pnas.org/lookup/doi/10.1073/pnas.1813823116"><div class="color-button">view online</div></a>
