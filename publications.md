@@ -14,7 +14,7 @@ Here is a list of my reviewed publications, preprints and thesis reports.
     				<img class="pull-left pad-right media-object" src="/publications/2019-mgpm-pnas/image.png">
   				</a>
  			 	<div class="media-body">
-    				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off">Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</a></div>
+    				<div class="smallhead media-heading"><a href="/publications/2019-mgpm-pnas/" class="off"><p>Automatic generation of evolutionary hypotheses using mixed Gaussian phylogenetic models</p></a></div>
     				<p class="note">Mitov et al. 2019. PNAS.</p>
   				</div>
 			</div>
