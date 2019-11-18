@@ -42,5 +42,21 @@ exclude:
   - "Gemfile.lock"
 
 projects:
+  - venelin/PCMView
+  - venelin/PCMBayes
+  - venelin/MGPMSimulations
+#- venelin/MGPMMammals
+  - venelin/PCMFit
+  - venelin/PCMBaseCpp
+  - venelin/PCMBase
+  - venelin/BinaryPoissonUsingSPLITT
+  - venelin/ThreePointUsingSPLITT
+  - venelin/PMMUsingSPLITT
+  - venelin/SPLITT
   - venelin/POUMM
+  - venelin/patherit
+  - venelin/toyepidemic
+  - venelin/Estimating-Pathogen-Trait-Heritability
+  
+  
   

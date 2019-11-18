@@ -1,0 +1,533 @@
+---
+- repo: venelin/PCMBase
+  title: PCMBase
+  owner: venelin
+  description: An R-package for fast likelihood evaluation for multivariate phylogenetic
+    comparative methods
+  url: "/projects/PCMBase/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  - login: gasimomitis
+    avatar: https://avatars0.githubusercontent.com/u/22318403?v=4&s=50
+    url: https://github.com/gasimomitis
+  - login: krzbar
+    avatar: https://avatars2.githubusercontent.com/u/27812821?v=4&s=50
+    url: https://github.com/krzbar
+  commits:
+  - date: 2019-11-12 18:05:19.000000000 Z
+    message: Slight modification inside MixedGaussian and PCM.PCM to support the case
+      when modelTypes is a list of actual PCM objects.
+    url: https://github.com/venelin/PCMBase/commit/e8f86369476d4edcc33e649b98978519ab60e455
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-08 07:59:51.000000000 Z
+    message: Function UpperChol renamed to UpperTriFactor. Simplified examples for
+      PCMLik and PCMSim
+    url: https://github.com/venelin/PCMBase/commit/beddd7723fec82103cba6c741ac47b76c0e04ced
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-08 07:49:31.000000000 Z
+    message: removed suggests to mvMORPH and PCMBaseCpp
+    url: https://github.com/venelin/PCMBase/commit/2b8db42399476958939d12de9943deb89430190b
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-08 07:34:19.000000000 Z
+    message: |-
+      - Added functions PCMListMembers, MatchListMembers, PCMSetAttribute, PCMGetAttribute.
+      - Added examples and improved documentation of the functions PCMLik and UpperChol.
+      The examples include calls to the companion package PCMBaseCpp, which was added
+      in Suggests.
+      - Fixed a bug in the parsing of error messages (attribute error of the result
+      from calling PCMLik).
+    url: https://github.com/venelin/PCMBase/commit/6132fd4bd3913364a73eca734d73d410c5e2646f
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-06 11:17:57.000000000 Z
+    message: |-
+      Added a function PCMCombineListAttribute.
+      Found and fixed a bug in PCMMapModelTypesToRegimes.MixedGaussian and
+      PCMMapModelTypesToRegimes.PCM: Using unique(PCMRegimes(tree)) instead of PCMTreeGetPartNames.
+    url: https://github.com/venelin/PCMBase/commit/97359d87c98a8d2ff8c35f74f6eb460173db3041
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/PCMBayes
+  title: PCMBayes
+  owner: venelin
+  description: Bayesian inference for multivariate phylogenetic comparative methods
+  url: "/projects/PCMBayes/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-12 13:17:47.000000000 Z
+    message: Updated man pages.
+    url: https://github.com/venelin/PCMBayes/commit/10e06edcaa20f6c3f33df3ce1ae663eede60d642
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-12 13:01:40.000000000 Z
+    message: Added missing html files (removed from .gitignore).
+    url: https://github.com/venelin/PCMBayes/commit/adbcdbadd4dd407165774ba9d991267e5ad4752a
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-12 12:43:53.000000000 Z
+    message: fixing travis build.
+    url: https://github.com/venelin/PCMBayes/commit/204f260a3c231d8ec0e1ea1bfec266fb0f398a31
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-12 11:05:05.000000000 Z
+    message: |-
+      Implemented basic API for specifying a model prior.
+      Implemented a specification of an MGPM state.
+      Initiated PCMBayes vignette and generated web-site.
+    url: https://github.com/venelin/PCMBayes/commit/3906855a79ec1c2065bc8397130d5becfc8ff117
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-10-24 09:44:32.000000000 Z
+    message: Configure travis.com
+    url: https://github.com/venelin/PCMBayes/commit/c64ee65755c5982fd74020294f759eabc90858fd
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/PCMBaseCpp
+  title: PCMBaseCpp
+  owner: venelin
+  description: A C++ Implementation of Parallel Likelihood Calculation for Phylogenetic
+    Comparative Models
+  url: "/projects/PCMBaseCpp/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-11 10:36:36.000000000 Z
+    message: update news text.
+    url: https://github.com/venelin/PCMBaseCpp/commit/f176f2bb97a8be4f0a8fdd391bdc770b2c0b04f3
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-11 09:10:42.000000000 Z
+    message: Added exception-handling code in SPLITT library. Added argument includeR
+      to BenchmarkRvsCpp and MiniBenchmarkRvsCpp functions.
+    url: https://github.com/venelin/PCMBaseCpp/commit/d862c97f0596889015843e473ed40aeff8a53e73
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-07 06:11:24.000000000 Z
+    message: small change in test.
+    url: https://github.com/venelin/PCMBaseCpp/commit/3534ba7271e3c09121686f3365070ba7387e9dae
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-06 09:01:54.000000000 Z
+    message: re-enable try-catch block in TraversalTaskWrapper class.
+    url: https://github.com/venelin/PCMBaseCpp/commit/72d4d528dbbc65c94f51fdd733442c03f220e609
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-05 12:50:08.000000000 Z
+    message: disabling catch code in TraversalTaskWrapper -- want to see how the test
+      behaves on linux (without -fopenmp option).
+    url: https://github.com/venelin/PCMBaseCpp/commit/01f1ed27a0647c510b5a81cdf071a47b882e7c4f
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/ThreePointUsingSPLITT
+  title: ThreePointUsingSPLITT
+  owner: venelin
+  description: Parallel implementation of the three point structure algorithm for
+    calculating quadratic forms and inverted matrices
+  url: "/projects/ThreePointUsingSPLITT/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-07 09:50:02.000000000 Z
+    message: Update to new SPLITT.h version
+    url: https://github.com/venelin/ThreePointUsingSPLITT/commit/0914dbe422bf46449a6ec4efb0b59461aafec9cd
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-17 23:01:31.000000000 Z
+    message: fixed a bug in the size of the height vector.
+    url: https://github.com/venelin/ThreePointUsingSPLITT/commit/caaa7ad471ea2a68c9754b94a7799e15139429c5
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-17 22:08:36.000000000 Z
+    message: Insert debug messages
+    url: https://github.com/venelin/ThreePointUsingSPLITT/commit/f9e17e4bdeb1a07f7fe8bc546eb48149c1ea4b20
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-17 20:15:08.000000000 Z
+    message: print values to check devel failure on travis
+    url: https://github.com/venelin/ThreePointUsingSPLITT/commit/32e42b78d64eb3c198859cfd393678585c3ed016
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-17 20:00:06.000000000 Z
+    message: regenerating .Rd files.
+    url: https://github.com/venelin/ThreePointUsingSPLITT/commit/e18bc129aab8d429850f765dd6437b6a965690c0
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/BinaryPoissonUsingSPLITT
+  title: BinaryPoissonUsingSPLITT
+  owner: venelin
+  description: 
+  url: "/projects/BinaryPoissonUsingSPLITT/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-07 09:48:41.000000000 Z
+    message: Update to new SPLITT.h version
+    url: https://github.com/venelin/BinaryPoissonUsingSPLITT/commit/ba4933cd1e8e512c20acf6af551acc66bfa4d985
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 12:26:29.000000000 Z
+    message: Add LAPACK libraries to link-path.
+    url: https://github.com/venelin/BinaryPoissonUsingSPLITT/commit/dace611d423086b3a220df9d1a722cefc326377c
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 11:33:50.000000000 Z
+    message: generated web-site using devtools::build_site()
+    url: https://github.com/venelin/BinaryPoissonUsingSPLITT/commit/fd6f39eee222c672ef2d61ffbe8c974c128eb88e
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 11:33:28.000000000 Z
+    message: generated man-pages using devtools::document()
+    url: https://github.com/venelin/BinaryPoissonUsingSPLITT/commit/b3afe2517d87eedda65301949baa61f86303dac8
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 11:32:46.000000000 Z
+    message: generated RcppExports.cpp using Rcpp::compileAttributes().
+    url: https://github.com/venelin/BinaryPoissonUsingSPLITT/commit/923ab9c8a33111ae8577c7e251553ae672753976
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/PMMUsingSPLITT
+  title: PMMUsingSPLITT
+  owner: venelin
+  description: An example R-package using the SPLITT library to calculate the likelihood
+    of a phylogenetic mixed model (PMM).
+  url: "/projects/PMMUsingSPLITT/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-07 09:47:33.000000000 Z
+    message: Update to new SPLITT.h version
+    url: https://github.com/venelin/PMMUsingSPLITT/commit/bacff69072bef3215d84429d732c45224631f26f
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-21 07:22:11.000000000 Z
+    message: Updated with SPLITT v1.2.2.
+    url: https://github.com/venelin/PMMUsingSPLITT/commit/814bc5eb4cf929f2f765191184f5d676457d68e7
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-20 21:40:47.000000000 Z
+    message: Added Google Analytics trackid to website.
+    url: https://github.com/venelin/PMMUsingSPLITT/commit/61f8b3afc2a3e77053c59e9aa4f49d337f8ba431
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 11:24:33.000000000 Z
+    message: fixed a typo.
+    url: https://github.com/venelin/PMMUsingSPLITT/commit/1485f14b9e2999ecc14bec8e6178196d20359044
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-11-18 10:47:34.000000000 Z
+    message: Use AbcPMM everywhere, e.g. in function PMMLogLik use AbcPMMLogLik. This
+      is necessary to facilitate creating a project using PMMUsingSPLITT as a template.
+    url: https://github.com/venelin/PMMUsingSPLITT/commit/26ef35f7861a326de432390543d2c5f6ba70befa
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/SPLITT
+  title: SPLITT
+  owner: venelin
+  description: Serial and Parallel LIneage Traversal of Trees
+  url: "/projects/SPLITT/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-11-07 09:28:29.000000000 Z
+    message: |-
+      Added exception_handler.Run([=]){...} around all _PRAGMA_OMP_SIMD code. This seems to fix the issue with exceptions bypassing on Windows: see https://github.com/RcppCore/Rcpp/issues/1001#issue-509047134
+      and https://github.com/venelin/PCMBaseCpp/issues/1#issue-507813590 .
+    url: https://github.com/venelin/SPLITT/commit/06ae6490478d94e3a5f4740f4802ccaddd49943b
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-21 07:10:12.000000000 Z
+    message: Added function StateAtNode(uint i) to the TraversalTask class. Updated
+      web-site. Version 1.2.2.
+    url: https://github.com/venelin/SPLITT/commit/210cb5b47a8ee401ca174b0e3c3dd7f4c01f01fe
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 13:04:49.000000000 Z
+    message: Adding man pages back to git.
+    url: https://github.com/venelin/SPLITT/commit/8ad4a136f8d58513cbace2591da827fa169791ea
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:49:55.000000000 Z
+    message: removing man-pages from git (trying to fix a build problem with travis).
+    url: https://github.com/venelin/SPLITT/commit/7de8d4e7617ccf934ec4ea7d8d6467007044f70d
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:32:30.000000000 Z
+    message: Untracking file types RData and gz from lfs
+    url: https://github.com/venelin/SPLITT/commit/e1cfe6d2d85b6f8690bd105232fabf149ba8ee40
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/PCMView
+  title: PCMView
+  owner: venelin
+  description: Advanced Visualization of Phylogenetic Comparative Models
+  url: "/projects/PCMView/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-10-23 07:35:25.000000000 Z
+    message: Adding PCMBaseCpp to suggests.
+    url: https://github.com/venelin/PCMView/commit/8d504f62eb2060e0182bc44c87ab16d977460299
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-10-22 16:34:11.000000000 Z
+    message: 'Adding Remotes: section to DESCRIPTION'
+    url: https://github.com/venelin/PCMView/commit/850bcd01adad457913b6b8b03d811475759b3b75
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-10-22 16:21:12.000000000 Z
+    message: Creating a README.Rmd
+    url: https://github.com/venelin/PCMView/commit/bf2200d01fab754e964ee4aea9b93bcc5210b8de
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-10-22 16:00:35.000000000 Z
+    message: Configured travis CI
+    url: https://github.com/venelin/PCMView/commit/d4d14ab0c88ea24cd2bd11e5f95530a3fa957207
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-10-22 15:55:44.000000000 Z
+    message: Passed CHECK.
+    url: https://github.com/venelin/PCMView/commit/c95a185966d764a28ccc20dd1981b62557a5c96d
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/PCMFit
+  title: PCMFit
+  owner: venelin
+  description: An R-package for fitting phylogenetic comparative models
+  url: "/projects/PCMFit/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-09-06 19:33:53.000000000 Z
+    message: fixed a minor bug.
+    url: https://github.com/venelin/PCMFit/commit/5e54d9cb97a98a6be50505834607ec747c8e10d9
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-09-06 16:51:22.000000000 Z
+    message: Implemented multiple calls instead of a single call to GuessInitVecParams
+      in PCMFitModelMappingsToPartitions. Added variable definitions at the beginning
+      of some functions to fix check warnings.
+    url: https://github.com/venelin/PCMFit/commit/d891c4ce172d7809a1661da48aa8b89cd6b475d0
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-09-04 07:51:19.000000000 Z
+    message: Performance optimization of GuessSigma_x -- avoiding to calculate the
+      vcv matrix every call.
+    url: https://github.com/venelin/PCMFit/commit/330fdeb35506f8715c91d2cb7eda9ec2d1834912
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-08-14 08:01:57.000000000 Z
+    message: added previously .gitignor-ed file vignettes/DefineParameterLimits.R
+    url: https://github.com/venelin/PCMFit/commit/222f69b8207c551ce27df31363b5ba9f4f401200
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-18 17:23:25.000000000 Z
+    message: Preparing Release 1.0.0
+    url: https://github.com/venelin/PCMFit/commit/4311b8f4583cb7571647b8861d2c7484eaa20161
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/MGPMSimulations
+  title: MGPMSimulations
+  owner: venelin
+  description: 
+  url: "/projects/MGPMSimulations/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-07-18 16:58:52.000000000 Z
+    message: Generated web-site
+    url: https://github.com/venelin/MGPMSimulations/commit/a18009d6995480334d3851fabb6eb21e247edd78
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-18 16:53:12.000000000 Z
+    message: Preparing release 1.0.0.
+    url: https://github.com/venelin/MGPMSimulations/commit/5b1262dbd54ad98c523fe4b539e39444fb23dd1a
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-18 16:51:06.000000000 Z
+    message: Deleted unused data-files (data-raw/data-old)
+    url: https://github.com/venelin/MGPMSimulations/commit/cce72cc6bcf6f0748ca360d8f25688060abc02ee
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-06-23 12:53:13.000000000 Z
+    message: updated figure generation.
+    url: https://github.com/venelin/MGPMSimulations/commit/91d74eb4cb8f5abebfa00ae2237e771d61ac4d10
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-06-23 12:51:46.000000000 Z
+    message: removed obsolete code, updated figure files.
+    url: https://github.com/venelin/MGPMSimulations/commit/820bb07699a4e122db6f6556af93aee51dfee1a7
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/Estimating-Pathogen-Trait-Heritability
+  title: Estimating-Pathogen-Trait-Heritability
+  owner: venelin
+  description: A Practical Guide to Estimating the Heritability of Pathogen Traits
+    (Supplementary programs and data)
+  url: "/projects/Estimating-Pathogen-Trait-Heritability/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-05-22 13:29:33.000000000 Z
+    message: updated e-mail addresses
+    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/5a79535566067409ab521ddc28f9ea6470547537
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 13:27:27.000000000 Z
+    message: Updated instructions for download/extraction of the the binary data needed
+      to generate the figures.
+    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/f1f0e057ec0b0a06bdb40238c4a3c7ffa93e4547
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:30:27.000000000 Z
+    message: Putting small binary files (R-packages patherit and benchtable and data-file
+      h2spvl.RData) back to git
+    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/6d59656dcb6141404f97e63887bcc31fd8a1e3d4
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:28:23.000000000 Z
+    message: untracking tar.gz files
+    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/056db128ac2a300621d84db9a94d918f35fdc145
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:07:02.000000000 Z
+    message: Untracking *.RData files from git lfs
+    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/b9f72a4f43046c6b8385fa2f2ee98799cb7bead5
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/POUMM
+  title: POUMM
+  owner: venelin
+  description: The Phylogenetic Ornstein-Uhlenbeck Mixed Model
+  url: "/projects/POUMM/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  - login: mattdowle
+    avatar: https://avatars3.githubusercontent.com/u/2779998?v=4&s=50
+    url: https://github.com/mattdowle
+  commits:
+  - date: 2019-05-22 12:05:41.000000000 Z
+    message: Putting docs/articles/UserGuideCache.RData under normla git
+    url: https://github.com/venelin/POUMM/commit/6dee189f694f7bf9121dcc4b63a68d0f84a35bd2
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:04:23.000000000 Z
+    message: Untracking *.RData files from lfs
+    url: https://github.com/venelin/POUMM/commit/ce5aaa4cf5565e5e4a69b3227e354b22f6dda7d3
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-04-08 14:20:52.000000000 Z
+    message: corrected license
+    url: https://github.com/venelin/POUMM/commit/e9d5bfb47d2f63feefa334dd09745daa0d8d2da0
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-04-08 14:04:38.000000000 Z
+    message: updated vignette
+    url: https://github.com/venelin/POUMM/commit/559b98922702cc7881550fea0d0052ae1476549e
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-04-08 14:03:50.000000000 Z
+    message: 'Added text in code-files and vignettes : licence and copyright + disclaimer.'
+    url: https://github.com/venelin/POUMM/commit/533e3574508bbc98422bbb51d1f23a0096fb073c
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/patherit
+  title: patherit
+  owner: venelin
+  description: Pathogen Trait Heritability
+  url: "/projects/patherit/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2018-02-18 11:38:34.000000000 Z
+    message: adding CITATION file
+    url: https://github.com/venelin/patherit/commit/879039599f9bec21b40f2333d1d4dd43e978a1ff
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-07 17:37:42.000000000 Z
+    message: typos
+    url: https://github.com/venelin/patherit/commit/ff54ec9601feaea896245e695cd535dcd8a1a5b6
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-07 16:57:45.000000000 Z
+    message: fix a typo in the readme file
+    url: https://github.com/venelin/patherit/commit/ec9e42fdf75ea74edb91eb14262646cd997e287c
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-07 16:56:51.000000000 Z
+    message: typo
+    url: https://github.com/venelin/patherit/commit/1ffe1e409c489fbfb98a95c65ea996067cd130bb
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-07 16:54:18.000000000 Z
+    message: |-
+      Written package vignette;
+      Generated pkgdown website;
+    url: https://github.com/venelin/patherit/commit/1def8c60c2f16463ef7ca84c9e13a23310f7aea6
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/toyepidemic
+  title: toyepidemic
+  owner: venelin
+  description: An R package for simulating within-host and between-host dynamics during
+    epidemics
+  url: "/projects/toyepidemic/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2018-01-06 13:00:42.000000000 Z
+    message: commented-out generation of REFERENCES-R.bib
+    url: https://github.com/venelin/toyepidemic/commit/67341ca2647c023973c1f21f3a2830dba7af0e38
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-06 12:56:51.000000000 Z
+    message: References section removed from README file.
+    url: https://github.com/venelin/toyepidemic/commit/d5b46a5047d6e23094a75b02a2a3df7046067d92
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-06 11:56:03.000000000 Z
+    message: minor edits
+    url: https://github.com/venelin/toyepidemic/commit/1ed4781a4ce58cd023718e8fbeb6b73f3800e16d
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-06 11:52:48.000000000 Z
+    message: Merge branch 'master' of https://github.com/venelin/toyepidemic
+    url: https://github.com/venelin/toyepidemic/commit/a320a46193b961cf4901a556094c7c96c02130b2
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2018-01-06 11:52:07.000000000 Z
+    message: minor edit.
+    url: https://github.com/venelin/toyepidemic/commit/e3a4ed939af31869fef73732adda76bcb98d5ef8
+    author_login: venelin
+    author_url: https://github.com/venelin
