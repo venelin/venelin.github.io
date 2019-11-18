@@ -56,4 +56,4 @@ projects:
   - venelin/PCMBase
   - venelin/POUMM
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
