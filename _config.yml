@@ -55,3 +55,5 @@ projects:
   - venelin/PCMBaseCpp
   - venelin/PCMBase
   - venelin/POUMM
+
+theme: jekyll-theme-minimal
