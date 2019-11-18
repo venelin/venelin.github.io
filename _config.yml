@@ -1,26 +1,57 @@
-# Site settings
-title: Venelin Mitov
-general_email: vmitov@gmail.com
-academic_email: venelin.mitov@bsse.ethz.ch
+name: Venelin Mitov
+description: My research and software contributions
+url: http://venelin.github.io
 
-description: > # this means to ignore newlines until "baseurl:"
-  Give a brief description of yourself, and maybe your passion/interests. It is displayed in search results.
+markdown: redcarpet
+permalink: /:categories/:title/
+future: true
 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+redcarpet:
+  extensions:
+   - tables
+   - no_intra_emphasis
+   - autolink
+   - superscript
+   - strikethrough
 
-url: "https://venelin.github.io" # the base hostname & protocol for your site
+exclude:
+  - "venelin.github.io.Rproj"
+  - "data-raw"
+  - ".Rproj.user"
+  - "vendor"
+  - "*.branches"
+  - "*.class"
+  - "*.cpp"
+  - "*.csv"
+  - "*.fasta"
+  - "*.gz"
+  - "*.h"
+  - "*.hh"
+  - "*.ipynb"
+  - "*.jar"
+  - "*.java"
+  - "*.kml"
+  - "*.log"
+  - "*.mcc"
+  - "*.nb"
+  - "*.newick"
+  - "*.nex"
+  - "*.py"
+  - "*.R"
+  - "*.rb"
+  - "*.Rmd"
+  - "*.tiff"
+  - "*.tips"
+  - "*.trees"
+  - "*.tsv"
+  - "*.txt"
+  - "*.xml"
+  - "*.zip"
+  - "Gemfile"
+  - "Gemfile.lock"
 
-# twitter_username: jekyllrb
-github_username: venelin
-linkedin_username: venelin-mitov-91894338
-facebook_username: venelinm
-# feel free to add other links here; you will have to add the SVG icon in _layouts/footer.html
-
-# Build settings
-markdown: kramdown
-
-kramdown:
-  math_engine: mathjax
-
-# Other options
-permalink: blog/:year/:month/:title
+projects:
+  - venelin/SPLITT
+  - venelin/PCMBaseCpp
+  - venelin/PCMBase
+  - venelin/POUMM

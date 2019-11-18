@@ -1,0 +1,49 @@
+---
+layout: default
+title: Venelin Mitov / publications
+categories:
+ - publications
+---
+
+<h1>Journal articles</h1>
+<br/>
+{% for paper in site.categories.papers %}
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-4 paperbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ paper.url }}">
+    				<img width=100 class="media-object" src="{{ paper.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
+    				<p class="note">{{ paper.ref }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+        </div>
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+{% cycle 'close rows': '', '</div>', '</div>' %}
+
+<h1>Theses</h1>
+</br>
+{% for thesis in site.categories.theses %}
+    {% cycle 'add rows': '<div class="row">', '', '' %}
+		<div class="col-md-4 paperbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ thesis.url }}">
+    				<img width=100 class="media-object" src="{{ thesis.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="smallhead media-heading"><a href="{{ thesis.url }}" class="off">{{ thesis.title }}</a></div>
+    				<p class="note">{{ thesis.ref }}</p>
+  				</div>
+			</div>
+			<div class="bigspacer"></div>
+			<div class="spacer"></div>
+        </div>
+    {% cycle 'close rows': '', '', '</div>' %}
+{% endfor %}
+
+{% cycle 'close rows': '', '</div>', '</div>' %}

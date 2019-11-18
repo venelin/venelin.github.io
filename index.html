@@ -1,24 +1,113 @@
 ---
 layout: default
+title: Venelin Mitov
+categories:
+ - home
 ---
 
-<div class="home">
-
-<p>Hello there, and welcome to my homepage!<br><br>My name is Venelin and I am currently working as a post-doctoral researcher in the <a href="">Computational Evolution</a> group at the department of Biosystems and Systems Engineering, ETH Zurich.<br><br>
-
-I maintain a list of my theses, preprint- and peer-reviewed publications under the <a href="/publications/">Publications</a> tab, my oral and poster presentations under the <a href="/presentations/">Presentations</a> tab, my research projects and implementations under the <a href="/research/">Research</a> tab, and a list of other non-research projects under the <a href="/projects">Projects</a> tab. You may also check out my <a href="https://github.com/venelin">Github profile.</a><br><br>
-
-<!--
-To get a better insight on my education and career path, you can have a look at my <a href="/cv">curriculum vitae</a>. I blog (although quite less frequently) and pin them down <a href="/blog">here</a>. Feel free to read a bit more <a href="/about">about me</a>.</p>
-
+<div class="row">
+	<div class="col-md-12">
+		<!--<object class="pull-right smallnote" data="/images/VenelinMitov.png" type="image/png"></object>-->
+		<object class="pull-right smallportrait" data="/images/VenelinMitov.jpg" type="image/jpg"></object>
+		<br/><br/><br/><br/>
+		<h1>Welcome!</h1>
+	</div>
 </div>
 
-<h2>Updates</h2>
-<div class="updates" style="height: 10em; overflow-y: scroll;">
-<ul>
-<li><i>Month. Year</i> - Add updates in chronological order, such as paper acceptance, talk invitations, internships, etc.</li>
-<li><i>Month. Year</i> - This list is scrollable, with most recent updates at the top.
-</ul>
 
+<!--<div class="row">
+	<div class="col-md-12">
+		<object class="pull-right smallportrait" data="/images/VenelinMitov.jpg" type="image/jpg"></object>
+	</div>
+</div>-->
+
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="smallhead">
+      <p>
+        I am a post-doctoral fellow in mathematical modeling with applications to evolutionary biology and I work in the <a href="http://www.bsse.ethz.ch/cevo">Computational Evolution</a> group at <a href="https://ethz.ch/">ETH Zurich</a>. 
+        I study the evolution of biological traits, such as morphological characters of animal or plant species, protein expression levels of cells, virulence traits of patients suffering an infection, and others. A common feature of these systems is that biological units like species, cells or viruses are connected by phylogenetic trees representing their ancestry or transmission history. This allows to use so called phylogenetic comparative models (PCMs) to detect patterns of trait evolution and interaction. Ultimately, I develop methods and software facilitating the application of such models to novel data. 
+      </p>
+      <p>
+        For more information, please, read my <a href="/pdfs/2019-11-mitov-cv-short.pdf">CV</a>.
+      </p>
+		</div>
+	</div>
 </div>
--->
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="/projects/">Active projects</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	{% for project in site.data.projects limit:4 %}
+	<div class="col-md-3 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-edit fa-fw"></i>
+				<a class="off" href="{{ project.url }}">
+				{{ project.title }} - {{ project.description }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Updated
+				<a class="off" href="{{ project.commits.first.url }}">
+				{{ project.commits.first.date | date: "%-d %b %Y" }}
+				</a>
+				by
+				<a class="off" href="{{ project.commits.first.author_url }}">
+				{{ project.commits.first.author_login }}
+				</a>
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="head">
+			<a class="off" href="/publications">Recent papers</a>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	{% for paper in site.categories.papers limit:4 %}
+	<div class="col-md-8 reduced-gutter">
+		<div class="pad-left">
+			<div class="note">
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="{{ paper.url }}">
+				{{ paper.title }}
+				</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="smallnote">
+				Posted
+				{{ paper.date | date: "%-d %b %Y" }}
+			</div>
+			<div class="bigspacer"></div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
+
+
+
