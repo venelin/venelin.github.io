@@ -5,6 +5,8 @@ url: https://venelin.github.io
 permalink: /:categories/:title/
 future: true
 
+gems: ['jekyll-less']
+
 exclude:
   - "venelin.github.io.Rproj"
   - "data-raw"
