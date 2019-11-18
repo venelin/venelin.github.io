@@ -45,7 +45,7 @@ projects:
   - venelin/PCMView
   - venelin/PCMBayes
   - venelin/MGPMSimulations
-#- venelin/MGPMMammals
+  - venelin/MGPMMammals
   - venelin/PCMFit
   - venelin/PCMBaseCpp
   - venelin/PCMBase

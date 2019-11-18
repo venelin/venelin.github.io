@@ -309,6 +309,43 @@
     url: https://github.com/venelin/PCMView/commit/c95a185966d764a28ccc20dd1981b62557a5c96d
     author_login: venelin
     author_url: https://github.com/venelin
+- repo: venelin/MGPMMammals
+  title: MGPMMammals
+  owner: venelin
+  description: 
+  url: "/projects/MGPMMammals/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-09-10 12:22:45.000000000 Z
+    message: Added an explanatory comment.
+    url: https://github.com/venelin/MGPMMammals/commit/002fdbb67c300b8a9bda4662c59ce77339116973
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-09-10 12:15:36.000000000 Z
+    message: Script updated to support PCMBase v1.2.10 and above.
+    url: https://github.com/venelin/MGPMMammals/commit/12861bd70958fc055fb18b850733f5d57b2b6ca5
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-30 09:05:21.000000000 Z
+    message: For validation purpose, compared the values from the best fit from calling
+      PCMFitMappings on the data with SEs. These revealed the same trend of gradually
+      increasing regression slope in regime 1. Code in fig3-MammalBackBone-Ribbons.
+    url: https://github.com/venelin/MGPMMammals/commit/552a387e2f85e06008cf4f9df9e32eefdd6aa9f9
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-18 17:06:12.000000000 Z
+    message: Deleted old data and figure files.
+    url: https://github.com/venelin/MGPMMammals/commit/a86c62743b7a2aeec43d0d150649836bc8dcd121
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-18 15:37:04.000000000 Z
+    message: Version set to 1.0.0. Updated man and docs.
+    url: https://github.com/venelin/MGPMMammals/commit/ba91f6005df708f056c789dec96c322f1444c170
+    author_login: venelin
+    author_url: https://github.com/venelin
 - repo: venelin/PCMFit
   title: PCMFit
   owner: venelin
