@@ -2,17 +2,8 @@ name: Venelin Mitov
 description: My research and software contributions
 url: https://venelin.github.io
 
-markdown: redcarpet
 permalink: /:categories/:title/
 future: true
-
-redcarpet:
-  extensions:
-   - tables
-   - no_intra_emphasis
-   - autolink
-   - superscript
-   - strikethrough
 
 exclude:
   - "venelin.github.io.Rproj"
