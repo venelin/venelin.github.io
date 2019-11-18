@@ -42,8 +42,5 @@ exclude:
   - "Gemfile.lock"
 
 projects:
-  - venelin/SPLITT
-  - venelin/PCMBaseCpp
-  - venelin/PCMBase
   - venelin/POUMM
   
