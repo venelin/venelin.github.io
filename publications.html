@@ -5,7 +5,7 @@ categories:
  - publications
 ---
 
-<h1>Journal articles</h1>
+<h1>Papers</h1>
 <br/>
 {% for paper in site.categories.papers %}
     {% cycle 'add rows': '<div class="row">', '', '' %}
@@ -45,5 +45,4 @@ categories:
         </div>
     {% cycle 'close rows': '', '', '</div>' %}
 {% endfor %}
-
 {% cycle 'close rows': '', '</div>', '</div>' %}
