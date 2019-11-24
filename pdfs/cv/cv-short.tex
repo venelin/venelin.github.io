@@ -1,0 +1,136 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[blue]{classic} 
+\usepackage[utf8]{inputenc}  %Windows 
+
+%\usepackage[scale=0.975]{geometry}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\firstname{Venelin}
+\familyname{Mitov}
+\title{Data Scientist, Ph.D.}        
+\mobile{upon request}    
+%\phone{}                
+%\fax{Votre Fax}                      
+\email{vmitov@gmail.com}                            
+%\homepage{\url{https://venelin.github.io}}
+\extrainfo{
+\homepagesymbol \url{https://venelin.github.io}}
+
+\photo[50pt]{../../images/VenelinMitov1.png} 
+
+\quote{A mathematician fascinated by biology, I love programming and I am passionate about discovering patterns in complex data.\\
+\vspace{8mm}
+\emph{\LARGE{Curriculum Vitae}}
+}
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\usepackage{footmisc}
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\usepackage{enumitem}
+
+%\usepackage[numbers,sort&compress]{natbib}
+\usepackage{natbib}
+\bibliographystyle{model3-num-names}
+\setlength{\bibsep}{4pt plus 0.3ex}
+
+\makeatletter
+
+\def\mysplit#1(#2)#3\@nil{%
+\ifthenelse{\equal{#2}{}}%
+{\def\mycitep{#1}}
+{\def\mycitep{#1, #2}}
+}
+
+\def\@lbibitem[#1]#2{%
+\mysplit#1\@nil
+\if\relax\@extra@b@citeb\relax\else
+\@ifundefined{br@#2\@extra@b@citeb}{}{%
+\@namedef{br@#2}{\@nameuse{br@#2\@extra@b@citeb}}}\fi
+\@ifundefined{b@#2\@extra@b@citeb}{\def\NAT@num{}}{\NAT@parse{#2}}%
+\item[\hfill\hyper@natanchorstart{#2\@extra@b@citeb}{\ \ \ \ {\mycitep}.}%
+\hyper@natanchorend]%
+\NAT@ifcmd#1(@)(@)\@nil{#2}}
+\makeatother
+
+
+\newcommand{\projectdetails}[1]{}
+
+
+\nopagenumbers{}                         
+\begin{document}
+\maketitle
+
+\section{Employment}
+\cventry{2019--2020}{Scientific Assistant II}{}{Computational Evolution group, Department of Biosystems Science and Engineering (D-BSSE), ETH Zurich}{}{Modeling stem-cell development using phylogenetic comparative methods.}
+\cventry{2014--2018}{Scientific Assistant I}{}{Computational Evolution group, D-BSSE, ETH Zurich}{Ph.D. thesis: Phylogenetic comparative methods in the era of big data}{supervised by Prof. Dr. Tanja Stadler}
+\cventry{2010--2011}{Lead performance engineer}{}{Adhoc International, Basel}{}{Project leadership in performance testing of e-banking web applications.}
+\cventry{2006--2010}{Performance engineer}{}{Adhoc International, Basel}{}{Development and execution of performance tests for web applications.}
+\cventry{2005}{Software engineer (internship)}{}{Adhoc International, Basel}{}{Design and implementation of Java-based test automation tools for web applications.}
+\cventry{2003--2004}{System administrator}{}{University St. Kliment Ohridski, Sofia, Bulgaria}{}{}
+
+\section{Education}
+\cventry{2011--2013}{M.Sc. student}{}{Computational Biology and Bioinformatics, ETH Zurich, Switzerland}{Thesis: Transfer learning of genome wide transcription dynamics during a malaria infection}{} 
+\cventry{2004--2005}{International exchange (Erasmus) student}{}{DESS, Networks and Telecommunications}{University Louis Pasteur, Strasbourg, France}{Included as part of B.Sc. studies.}
+\cventry{2000--2005}{B.Sc. student}{}{Computer Science, University St. Kliment Ohridski, Sofia, Bulgaria}{}{} 
+
+\section{Nominations and Scholarships}
+\cventry{2018}{Nomination for the Silver Medal of ETH Zurich for outstanding doctoral thesis}{}{}{}{Six nominated candidates from D-BSSE will be evaluated for the award on December 18$^{\text{th}}$ 2019.}
+\cventry{2004-2005}{Scholarship for one year studies in France in the framework of the student exchange program ``Erasmus''}{}{}{}{Based on excellent academic record and knowledge of French.}
+\cventry{2000-2004}{Scholarship for B.Sc. studies}{}{}{}{Based on excellent entry exams and academic record.}
+
+\section{Publications}
+\cvline{}{See \homepagesymbol \url{https://venelin.github.io/publications}.} 
+
+\section{Grants}
+\cventry{2015}{Funding for the first ``Taming the BEAST'' workshop}{}{Swiss Universities Conference (SUK) doctoral program 2013-2016}{25'000 CHF}{}
+
+\section{Projects}
+\cvline{}{See \homepagesymbol \url{https://venelin.github.io/projects}.}
+
+\section{Other contributions}
+\cvline{2019}{Co-organiser of the seminar series ``Methods \& Beers'', \url{https://methods-and-beers.ch}.}
+\cvline{2016}{Co-organiser of the first ``Taming the BEAST'' workshop, \url{https://taming-the-beast.org}.}
+\cvline{2015}{Review of the article ``Predicting Microbial Traits with Phylogenies'', Systematic Biology.}
+
+\section{Skills}
+\cvline{Modeling / machine learning methods:}{\vspace*{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Multivariate regression and classification: linear regression, logistic regression, support vector machines, neural networks;
+\item Convex optimization: Gradient descent, Alternating direction method of multipliers;
+\item Monte Carlo simulation: reversible jump Markov Chain Monte Carlo sampling;
+\item Dimensionality reduction and regularization: Ridge, Lasso, Principal Component Analysis; self-organizing maps;
+\item Population dynamics: Ordinary differential equations (ODE) models;
+\item Computer assisted drug design: virtual molecular screening and molecular dynamics simulation;
+\item Graphical models: Bayesian networks; 
+\item Stochastic models: Branching processes, Brownian motion (BM) and Ornstein-Uhlenbeck (OU) processes, Gaussian models.
+\end{itemize}}
+\cvline{Computater science:}{\vspace*{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Data structures and algorithms;
+\item Programming languages: Expertise in R, C++, Java, Unix shell, SQL; Notions about C\#, Matlab, Python;
+\item Libraries: STL, Armadillo, alglib; 
+\item Parallel computing: OpenMP, MPI, LSF; 
+\item Data visualization: ggplot2. 
+\end{itemize}}
+\cvline{Other skills:}{\vspace*{-\baselineskip}
+\begin{itemize}[noitemsep,topsep=1pt]
+\item Project management;
+\item Scientific writing, documentation and presentation skills;
+\item Languages: English and French -- fluent, German -- C1, Bulgarian -- native.
+\end{itemize}}
+
+\section{Interests and hobbies}
+\cvline{}{Playing the piano, swimming, volleyball, hiking, bicycle touring.}
+
+\section{References}
+\cvline{}{Upon request.}
+
+\end{document}
