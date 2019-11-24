@@ -20,4 +20,40 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 - Complete publication list;
 - Add talks;
-- Add images for theses;
+
+# Building the web-site:
+
+Clone the repository:
+```
+git clone git@github.com:venelin/venelin.github.io.git
+cd venelin.github.io
+```
+Install the bundler:
+```
+gem install bundler
+```
+
+Then install necessary Ruby dependencies by running from within the venelin.github.io directory: 
+```
+bundle install
+```
+You may need admin rights to perform the last step. If you run into difficulties remove the file Gemfile.lock and try again.
+
+After this, the site can be be built with:
+```
+bundle exec jekyll build
+```
+
+To update the projects tab, run:
+```
+bundle exec ruby _scripts/update-and-preprocess.rb
+```
+
+To run the site locally, run:
+
+```
+bundle exec jekyll serve
+```
+
+See http://localhost:4000
+
