@@ -5,6 +5,7 @@ image: /images/theses/2013-mitov-msc-thesis.png
 author: Mitov V.
 supervisor: Claassen M.
 year: 2013
+type: M.Sc. thesis
 ref: Mitov 2013.
 pdf: /pdfs/theses/2013-mitov-msc-thesis.pdf
 ---

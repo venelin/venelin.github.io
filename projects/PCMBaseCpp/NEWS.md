@@ -1,10 +1,14 @@
 ---
-layout: project
-title: PCMBaseCpp/NEWS
-project: PCMBaseCpp
-repo: venelin/PCMBaseCpp
-permalink: /:path/:basename:output_ext
+title: "NEWS about the PCMBaseCpp R-package"
+author: "Venelin Mitov"
+date: "21 November, 2019"
+output: html_document
 ---
+
+# PCMBaseCpp 0.1.7
+
+* Disabled OPENMP compilation in an attempt to fix the failures on "Fedora clang" and "Solaris". Note that these errors could not be reproduced using devtools::check_rhub().
+* Generated project web-page: https://venelin.github.io/PCMBaseCpp .
 
 # PCMBaseCpp 0.1.6
 

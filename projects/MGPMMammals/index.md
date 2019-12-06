@@ -19,7 +19,7 @@ mammal dataset in the research article (Mitov, Bartoszek, and Stadler
 
 The easiest way to install this package is to use the function
 `install_github()` from the R-package devtools. The following command
-will install the most up-to-date version of the master branch from the
+will install the most recent version of the master branch from the
 github repository of the package.
 
 ``` r
@@ -70,7 +70,7 @@ Special terms apply to the following data-files and objects:
 Please, read the following:
 
 ``` r
-print(citation("MGPMMammals"), bibtex = TRUE)
+print(citation("MGPMMammals"))
 #> 
 #> If you use R-code or analysis results from MGPMMammals in
 #> publications, please cite the first one of the three articles
@@ -101,6 +101,10 @@ print(citation("MGPMMammals"), bibtex = TRUE)
 #>   analysis of encephalization in mammals reveals relaxed
 #>   constraints on anthropoid primate and cetacean brain scaling.
 #>   Dryad Digital Repository https://doi.org/10.5061/dryad.5kh0b362
+#> 
+#> To see these entries in BibTeX format, use 'print(<citation>,
+#> bibtex=TRUE)', 'toBibtex(.)', or set
+#> 'options(citation.bibtex.max=999)'.
 ```
 
 ## Further information

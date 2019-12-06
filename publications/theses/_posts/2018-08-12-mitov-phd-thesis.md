@@ -6,6 +6,7 @@ author: Mitov V.
 supervisor: Stadler T.
 coreferees: Alizon S., Regös R.
 year: 2018
+type: Ph.D. thesis
 ref: Mitov 2018.
 pdf: /pdfs/theses/2018-mitov-phd-thesis.pdf
 doi: 10.3929/ethz-b-000315296
