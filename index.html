@@ -113,10 +113,12 @@ categories:
 			</div>
 			<div class="smallnote">
 				{% if site.travisbuild contains project.title %}  
-				    <a href="https://travis-ci.com/venelin/{{ project.title }}"><img src="https://travis-ci.com/venelin/{{ project.title }}.svg?branch=master"></a>
 				    <div class="smallspacer"></div>
+				    <a href="https://travis-ci.com/venelin/{{ project.title }}"><img src="https://travis-ci.com/venelin/{{ project.title }}.svg?branch=master"></a>
+				    
 				{% endif %}
 				{% if site.cranpackages contains project.title %}
+				  <div class="smallspacer"></div>
 				  <a href="https://cran.r-project.org/package={{ project.title }}"><img src="http://www.r-pkg.org/badges/version/{{ project.title }}?color=blue"></a>
 			    <div class="smallspacer"></div>
 			    <a href="https://cran.r-project.org/package={{ project.title }}"><img src="http://cranlogs.r-pkg.org/badges/{{ project.title }}?color=blue"></a>
