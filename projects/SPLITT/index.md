@@ -37,8 +37,6 @@ permalink: /:path/:basename:output_ext
 
 [![Travis build
 status](https://travis-ci.org/venelin/SPLITT.svg?branch=master)](https://travis-ci.org/venelin/SPLITT)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/SPLITT?color=blue)](http://cran.rstudio.com/package=SPLITT)
-[![Downloads](http://cranlogs.r-pkg.org/badges/SPLITT?color=blue)](http://cran.rstudio.com/package=SPLITT)
 [![DOI](https://zenodo.org/badge/159803456.svg)](https://zenodo.org/badge/latestdoi/159803456)
 
 # SPLITT: Serial and Parallel LIneage Traversal of Trees
@@ -117,7 +115,7 @@ Phylogenetic Comparative Models: the SPLITT C++ Library. bioRxiv,
 
 The SPLITT R-package uses the following 3rd party R-packages:
 
-  - For calling C++ from R: Rcpp v1.0.1 (Eddelbuettel et al. 2018);
+  - For calling C++ from R: Rcpp v1.0.2 (Eddelbuettel et al. 2018);
   - For tree processing in R: ape v5.3 (Paradis et al. 2018);
   - For cloning and manipulating git repositories: git2r v0.26.1 (Csardi
     et al. 2018);

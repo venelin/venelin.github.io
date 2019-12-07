@@ -1,45 +1,9 @@
 ---
-- repo: venelin/MGPMMammals
-  title: MGPMMammals
-  owner: venelin
-  description: 
-  url: "/projects/MGPMMammals/"
-  contributors:
-  - login: venelin
-    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
-    url: https://github.com/venelin
-  commits:
-  - date: 2019-12-06 22:28:47.000000000 Z
-    message: remove bibtex = TRUE from print(citation("MGPMMammals)).
-    url: https://github.com/venelin/MGPMMammals/commit/e2d213315bea06cd6e7aab89347d98ce9611059b
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-06 21:59:58.000000000 Z
-    message: removed braces from References - causing problems in Projects sites generation
-      for venelin.github.io.
-    url: https://github.com/venelin/MGPMMammals/commit/c3bffa5131fb360d2dd71ddfc3d9807d504963f4
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-06 21:55:30.000000000 Z
-    message: add a space
-    url: https://github.com/venelin/MGPMMammals/commit/be6e8be2375de29c8abe3af527dcfae2c9f0955c
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-06 21:49:39.000000000 Z
-    message: add an extra space
-    url: https://github.com/venelin/MGPMMammals/commit/d3fd2ed0e9632ba074e4854a2ee5d8cce2c29be2
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-09-10 12:22:45.000000000 Z
-    message: Added an explanatory comment.
-    url: https://github.com/venelin/MGPMMammals/commit/002fdbb67c300b8a9bda4662c59ce77339116973
-    author_login: venelin
-    author_url: https://github.com/venelin
 - repo: venelin/PCMBase
   title: PCMBase
   owner: venelin
-  description: An R-package for fast likelihood evaluation for multivariate phylogenetic
-    comparative methods
+  description: An R-package for fast likelihood calculation and simulation of phylogenetic
+    comparative models
   url: "/projects/PCMBase/"
   contributors:
   - login: venelin
@@ -52,6 +16,11 @@
     avatar: https://avatars2.githubusercontent.com/u/27812821?v=4&s=50
     url: https://github.com/krzbar
   commits:
+  - date: 2019-12-07 07:48:10.000000000 Z
+    message: Updated reference to published article in Theoretical Population Biology.
+    url: https://github.com/venelin/PCMBase/commit/8e6367cb2c80f51dc1c360ffaca1829667012e5f
+    author_login: venelin
+    author_url: https://github.com/venelin
   - date: 2019-12-05 10:26:42.000000000 Z
     message: replacing conditions of the form class(x) == "bla" by inherits(x, "bla").
       This is needed for fixing a problem on r-devel.
@@ -75,64 +44,22 @@
     url: https://github.com/venelin/PCMBase/commit/bfd4a2599b64ca419f3daaf72022732d86d0c9c6
     author_login: venelin
     author_url: https://github.com/venelin
-  - date: 2019-11-20 13:52:20.000000000 Z
-    message: Updated web-site for v1.2.11
-    url: https://github.com/venelin/PCMBase/commit/880581fc181ff2a76f7ad2610ef4748f3814d2a3
-    author_login: venelin
-    author_url: https://github.com/venelin
-- repo: venelin/POUMM
-  title: POUMM
-  owner: venelin
-  description: The Phylogenetic Ornstein-Uhlenbeck Mixed Model
-  url: "/projects/POUMM/"
-  contributors:
-  - login: venelin
-    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
-    url: https://github.com/venelin
-  - login: mattdowle
-    avatar: https://avatars3.githubusercontent.com/u/2779998?v=4&s=50
-    url: https://github.com/mattdowle
-  commits:
-  - date: 2019-12-05 09:47:31.000000000 Z
-    message: Preparing release 2.1.6
-    url: https://github.com/venelin/POUMM/commit/c9be5786601b426af76236645cf370ffa9ce8c27
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-05 08:52:04.000000000 Z
-    message: Cleaning up the data object of invalid C++ objects in order to enable
-      LazyData:true in DESCRIPTION.
-    url: https://github.com/venelin/POUMM/commit/32ac6bcd8499608b613f8d7bc298890d82c9d247
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-05 08:12:24.000000000 Z
-    message: |-
-      Dealing with a new CHECK warning: Variables with usage in documentation object 'vignetteCachedResults' but not in code:
-      "vignetteCachedResults"; see https://stackoverflow.com/a/57396393/7659245
-    url: https://github.com/venelin/POUMM/commit/e904bd6bee9b7a0b59d28dfa51b38a8d09a6a6cf
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-05 07:42:50.000000000 Z
-    message: changed conditions of the form class(x) == "bla" to inherits(x, "bla"),
-      in order to fix a build issue on r-devel.
-    url: https://github.com/venelin/POUMM/commit/35b4b314c26d6d27f10621b1194384ec4d2eb11c
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-12-05 07:12:44.000000000 Z
-    message: Preparing v2.1.6
-    url: https://github.com/venelin/POUMM/commit/b95d5a599c41e2b52e68c0691cafc3fb2c0d0dc4
-    author_login: venelin
-    author_url: https://github.com/venelin
 - repo: venelin/PCMBaseCpp
   title: PCMBaseCpp
   owner: venelin
-  description: A C++ Implementation of Parallel Likelihood Calculation for Phylogenetic
-    Comparative Models
+  description: An R-package with Rcpp-modules for fast likelihood calculation of Gaussian
+    phylogenetic models
   url: "/projects/PCMBaseCpp/"
   contributors:
   - login: venelin
     avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
     url: https://github.com/venelin
   commits:
+  - date: 2019-12-07 07:44:57.000000000 Z
+    message: Updated citation to published article in TPB.
+    url: https://github.com/venelin/PCMBaseCpp/commit/583016d96992d710eddc7b800473a3e4e2cca1d4
+    author_login: venelin
+    author_url: https://github.com/venelin
   - date: 2019-11-21 09:40:45.000000000 Z
     message: |-
       Re-enabled all tests;
@@ -156,15 +83,89 @@
     url: https://github.com/venelin/PCMBaseCpp/commit/0e29cd6a740660d03e272db8e5c89e8d26e793fd
     author_login: venelin
     author_url: https://github.com/venelin
-  - date: 2019-11-20 13:35:55.000000000 Z
-    message: Generated pkgdown web-site. Added NEWS.md
-    url: https://github.com/venelin/PCMBaseCpp/commit/4cb70fa83997ddf369423a70a05a45af777be32d
+- repo: venelin/POUMM
+  title: POUMM
+  owner: venelin
+  description: An R-package implementing the univariate Phylogenetic Ornstein-Uhlenbeck
+    Mixed Model
+  url: "/projects/POUMM/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  - login: mattdowle
+    avatar: https://avatars3.githubusercontent.com/u/2779998?v=4&s=50
+    url: https://github.com/mattdowle
+  commits:
+  - date: 2019-12-07 07:25:06.000000000 Z
+    message: updated vignette
+    url: https://github.com/venelin/POUMM/commit/c8c2776d06479fb3221e3bb97987062232a1608f
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-12-06 23:28:25.000000000 Z
+    message: triggering a build
+    url: https://github.com/venelin/POUMM/commit/94103fa90af7d5943ef06888b4d6d5f51ae3f6d6
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-12-06 23:14:14.000000000 Z
+    message: fake change
+    url: https://github.com/venelin/POUMM/commit/b0305efec64b274f86832caa38450c2763b43dd8
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-12-06 23:07:51.000000000 Z
+    message: small update to trigger a buidl on travis-ci.com
+    url: https://github.com/venelin/POUMM/commit/5fe3850e4002074a5e828b726cbb930f2c05660f
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-12-06 23:03:03.000000000 Z
+    message: Migrating to travis-ci.com.
+    url: https://github.com/venelin/POUMM/commit/ad983ad6981e73808043472566f975e04321264d
+    author_login: venelin
+    author_url: https://github.com/venelin
+- repo: venelin/SPLITT
+  title: SPLITT
+  owner: venelin
+  description: A one-header C++ template library for Serial and Parallel LIneage Traversal
+    of Trees
+  url: "/projects/SPLITT/"
+  contributors:
+  - login: venelin
+    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
+    url: https://github.com/venelin
+  commits:
+  - date: 2019-12-07 07:22:34.000000000 Z
+    message: removed unused badges.
+    url: https://github.com/venelin/SPLITT/commit/14fa147207e0697cbaa03f3dc7d176579c74c837
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-11-07 09:28:29.000000000 Z
+    message: |-
+      Added exception_handler.Run([=]){...} around all _PRAGMA_OMP_SIMD code. This seems to fix the issue with exceptions bypassing on Windows: see https://github.com/RcppCore/Rcpp/issues/1001#issue-509047134
+      and https://github.com/venelin/PCMBaseCpp/issues/1#issue-507813590 .
+    url: https://github.com/venelin/SPLITT/commit/06ae6490478d94e3a5f4740f4802ccaddd49943b
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-07-21 07:10:12.000000000 Z
+    message: Added function StateAtNode(uint i) to the TraversalTask class. Updated
+      web-site. Version 1.2.2.
+    url: https://github.com/venelin/SPLITT/commit/210cb5b47a8ee401ca174b0e3c3dd7f4c01f01fe
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 13:04:49.000000000 Z
+    message: Adding man pages back to git.
+    url: https://github.com/venelin/SPLITT/commit/8ad4a136f8d58513cbace2591da827fa169791ea
+    author_login: venelin
+    author_url: https://github.com/venelin
+  - date: 2019-05-22 12:49:55.000000000 Z
+    message: removing man-pages from git (trying to fix a build problem with travis).
+    url: https://github.com/venelin/SPLITT/commit/7de8d4e7617ccf934ec4ea7d8d6467007044f70d
     author_login: venelin
     author_url: https://github.com/venelin
 - repo: venelin/PCMBayes
   title: PCMBayes
   owner: venelin
-  description: Bayesian inference for multivariate phylogenetic comparative methods
+  description: An R-package for Bayesian inference of multivariate Gaussian phylogenetic
+    models with shifts
   url: "/projects/PCMBayes/"
   contributors:
   - login: venelin
@@ -307,44 +308,6 @@
     url: https://github.com/venelin/PMMUsingSPLITT/commit/26ef35f7861a326de432390543d2c5f6ba70befa
     author_login: venelin
     author_url: https://github.com/venelin
-- repo: venelin/SPLITT
-  title: SPLITT
-  owner: venelin
-  description: Serial and Parallel LIneage Traversal of Trees
-  url: "/projects/SPLITT/"
-  contributors:
-  - login: venelin
-    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
-    url: https://github.com/venelin
-  commits:
-  - date: 2019-11-07 09:28:29.000000000 Z
-    message: |-
-      Added exception_handler.Run([=]){...} around all _PRAGMA_OMP_SIMD code. This seems to fix the issue with exceptions bypassing on Windows: see https://github.com/RcppCore/Rcpp/issues/1001#issue-509047134
-      and https://github.com/venelin/PCMBaseCpp/issues/1#issue-507813590 .
-    url: https://github.com/venelin/SPLITT/commit/06ae6490478d94e3a5f4740f4802ccaddd49943b
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-07-21 07:10:12.000000000 Z
-    message: Added function StateAtNode(uint i) to the TraversalTask class. Updated
-      web-site. Version 1.2.2.
-    url: https://github.com/venelin/SPLITT/commit/210cb5b47a8ee401ca174b0e3c3dd7f4c01f01fe
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 13:04:49.000000000 Z
-    message: Adding man pages back to git.
-    url: https://github.com/venelin/SPLITT/commit/8ad4a136f8d58513cbace2591da827fa169791ea
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 12:49:55.000000000 Z
-    message: removing man-pages from git (trying to fix a build problem with travis).
-    url: https://github.com/venelin/SPLITT/commit/7de8d4e7617ccf934ec4ea7d8d6467007044f70d
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 12:32:30.000000000 Z
-    message: Untracking file types RData and gz from lfs
-    url: https://github.com/venelin/SPLITT/commit/e1cfe6d2d85b6f8690bd105232fabf149ba8ee40
-    author_login: venelin
-    author_url: https://github.com/venelin
 - repo: venelin/PCMView
   title: PCMView
   owner: venelin
@@ -383,7 +346,8 @@
 - repo: venelin/PCMFit
   title: PCMFit
   owner: venelin
-  description: An R-package for fitting phylogenetic comparative models
+  description: An R-package for maximum likelihood inference of Gaussian phylogenetic
+    models with shifts
   url: "/projects/PCMFit/"
   contributors:
   - login: venelin
@@ -416,79 +380,6 @@
   - date: 2019-07-18 17:23:25.000000000 Z
     message: Preparing Release 1.0.0
     url: https://github.com/venelin/PCMFit/commit/4311b8f4583cb7571647b8861d2c7484eaa20161
-    author_login: venelin
-    author_url: https://github.com/venelin
-- repo: venelin/MGPMSimulations
-  title: MGPMSimulations
-  owner: venelin
-  description: 
-  url: "/projects/MGPMSimulations/"
-  contributors:
-  - login: venelin
-    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
-    url: https://github.com/venelin
-  commits:
-  - date: 2019-07-18 16:58:52.000000000 Z
-    message: Generated web-site
-    url: https://github.com/venelin/MGPMSimulations/commit/a18009d6995480334d3851fabb6eb21e247edd78
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-07-18 16:53:12.000000000 Z
-    message: Preparing release 1.0.0.
-    url: https://github.com/venelin/MGPMSimulations/commit/5b1262dbd54ad98c523fe4b539e39444fb23dd1a
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-07-18 16:51:06.000000000 Z
-    message: Deleted unused data-files (data-raw/data-old)
-    url: https://github.com/venelin/MGPMSimulations/commit/cce72cc6bcf6f0748ca360d8f25688060abc02ee
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-06-23 12:53:13.000000000 Z
-    message: updated figure generation.
-    url: https://github.com/venelin/MGPMSimulations/commit/91d74eb4cb8f5abebfa00ae2237e771d61ac4d10
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-06-23 12:51:46.000000000 Z
-    message: removed obsolete code, updated figure files.
-    url: https://github.com/venelin/MGPMSimulations/commit/820bb07699a4e122db6f6556af93aee51dfee1a7
-    author_login: venelin
-    author_url: https://github.com/venelin
-- repo: venelin/Estimating-Pathogen-Trait-Heritability
-  title: Estimating-Pathogen-Trait-Heritability
-  owner: venelin
-  description: A Practical Guide to Estimating the Heritability of Pathogen Traits
-    (Supplementary programs and data)
-  url: "/projects/Estimating-Pathogen-Trait-Heritability/"
-  contributors:
-  - login: venelin
-    avatar: https://avatars2.githubusercontent.com/u/15032497?v=4&s=50
-    url: https://github.com/venelin
-  commits:
-  - date: 2019-05-22 13:29:33.000000000 Z
-    message: updated e-mail addresses
-    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/5a79535566067409ab521ddc28f9ea6470547537
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 13:27:27.000000000 Z
-    message: Updated instructions for download/extraction of the the binary data needed
-      to generate the figures.
-    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/f1f0e057ec0b0a06bdb40238c4a3c7ffa93e4547
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 12:30:27.000000000 Z
-    message: Putting small binary files (R-packages patherit and benchtable and data-file
-      h2spvl.RData) back to git
-    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/6d59656dcb6141404f97e63887bcc31fd8a1e3d4
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 12:28:23.000000000 Z
-    message: untracking tar.gz files
-    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/056db128ac2a300621d84db9a94d918f35fdc145
-    author_login: venelin
-    author_url: https://github.com/venelin
-  - date: 2019-05-22 12:07:02.000000000 Z
-    message: Untracking *.RData files from git lfs
-    url: https://github.com/venelin/Estimating-Pathogen-Trait-Heritability/commit/b9f72a4f43046c6b8385fa2f2ee98799cb7bead5
     author_login: venelin
     author_url: https://github.com/venelin
 - repo: venelin/patherit

@@ -44,8 +44,6 @@ exclude:
 projects:
   - venelin/PCMView
   - venelin/PCMBayes
-  - venelin/MGPMSimulations
-  - venelin/MGPMMammals
   - venelin/PCMFit
   - venelin/PCMBaseCpp
   - venelin/PCMBase
@@ -56,7 +54,22 @@ projects:
   - venelin/POUMM
   - venelin/patherit
   - venelin/toyepidemic
-  - venelin/Estimating-Pathogen-Trait-Heritability
   
+travisbuild:
+  - PCMView
+  - PCMBayes
+  - PCMFit
+  - PCMBaseCpp
+  - PCMBase
+  - BinaryPoissonUsingSPLITT
+  - ThreePointUsingSPLITT
+  - PMMUsingSPLITT
+  - SPLITT
+  - POUMM
+  
+cranpackages:
+  - PCMBase
+  - PCMBaseCpp
+  - POUMM
   
   

@@ -15,7 +15,6 @@ config["projects"].each do |repo|
 	`git clean -f`										# remove untracked files, but keep directories
 	`git reset --hard HEAD`								# bring back to head state
 	`git pull origin master`							# git pull	
-	`sleep 5`                           # sleep for 5 secs (trying to avoid rate limits)
 end
 
 Dir.chdir($basedir)
