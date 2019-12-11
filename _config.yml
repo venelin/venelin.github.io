@@ -56,16 +56,6 @@ projects:
   - venelin/toyepidemic
   
 travisbuild:
-  - PCMView
-  - PCMBayes
-  - PCMFit
-  - PCMBaseCpp
-  - PCMBase
-  - BinaryPoissonUsingSPLITT
-  - ThreePointUsingSPLITT
-  - PMMUsingSPLITT
-  - SPLITT
-  - POUMM
   
 cranpackages:
   - PCMBase
