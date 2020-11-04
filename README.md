@@ -19,7 +19,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # TODOs
 
 - Complete publication list;
-- Add talks;
+- Add posters and talks;
 
 # Building the web-site:
 
