@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 projects/*
+/.jekyll-cache
+/Gemfile.lock
+/_site
