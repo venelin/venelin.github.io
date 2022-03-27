@@ -28,6 +28,14 @@ Clone the repository:
 git clone git@github.com:venelin/venelin.github.io.git
 cd venelin.github.io
 ```
+
+Install ruby and ruby-dev:
+```
+sudo apt update
+sudo apt install ruby
+sudo apt-get install ruby-dev
+```
+
 Install the bundler:
 ```
 gem install bundler
